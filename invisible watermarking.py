@@ -2,7 +2,7 @@ from PIL import Image
 
 from sys import argv
 from qrcode import make as makeQR
-
+# комментарий номер 5 (пять)
 if __name__ == '__main__':
     qr = makeQR("hello sourya")
     qw, qh = qr.size
